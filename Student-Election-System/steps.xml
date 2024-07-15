@@ -1,0 +1,5 @@
+Clone or Download Zip project
+Extract to any location using softwares like 7zip or WinRAR
+Put the project into 'htdocs' directory.
+Database setup - Create a database named 'StudentVote' (or of your choice) and import the file 'StudentVote.sql' given here in that.
+Run Localhost and Enter the project folder name. The index page will start running.

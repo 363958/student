@@ -1,0 +1,70 @@
+	
+body {
+    font-family: 'Secular One', sans-serif;
+    background-color: #F6E6CB;
+    
+  
+}
+header.jumbotron {
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    color: transparent ;
+}
+.parent{
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px);
+}
+.container{
+	background: #E0A75E;
+    border-radius: 24px;
+    box-shadow: 0 2px 4px rgba(9, 9, 9, 0.1);
+    padding: 2em;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+	
+}
+h1 {
+  
+    margin: 0.5em 0;
+}
+
+a.gradient {
+  text-decoration: none;
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: #973131;
+    background: #E0A75E;
+    border-radius: 10%50%10%50%/50%10%50%10%;
+    transition: background 0.3s ease;
+    
+}
+
+a.gradient:hover {
+    background: #987070;
+    cursor: pointer;
+    transform: translate(20PX);
+}
+hr {
+    border: peru;
+    border-top: 3px solid #ddd;
+    margin: 1em 0;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+div {
+    unicode-bidi: isolate;
+}
