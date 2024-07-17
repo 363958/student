@@ -18,15 +18,24 @@ input[type=text], input[type=password] {
 }
 
 button {
-  background-color: cyan;
-  color: white;
+  color: black;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
 }
-
+.container{
+            margin-top: -30%;
+            border:24px  ;
+            background-color: #E0A75E;
+            border-radius: 24px;
+                text-align: center;
+                  }
+      h2{
+        color: #303841;
+      }
+    
 </style>
 <?php 
 if(!isset($_SESSION)) 
@@ -35,9 +44,11 @@ if(!isset($_SESSION))
 } 
  ?>
     <center>
-<h1>Student Election System</h1>
+ <header class="jumbotron text-center">
+        <h1>Onile Voting System </h1>
+       
+    </header>
 
-<h4>A Student Election Campaign Management Portal. Voting Made Easy.</h4>
 </center>
 <p>
 <center>
@@ -45,22 +56,23 @@ if(!isset($_SESSION))
 <body>
 
 <h2>Voter Login Form</h2>
+<center>
 
 <form action="loginSubmit.php" method="post">
 
  <div class="parent">
   <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter StudentID" name="uname" required>
+<input type="text" placeholder="Enter StudentID" name="uname" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+  <input type="password" placeholder="Username" name="psw" required>
         
 	 <p><mark><?php if(isset($_GET['error'])){ echo $_GET['error']; } ?></mark> </p>
     <button type="submit" >Login</button>
-   <a href="index.php">New User? Register </a>
+   <a href="index.php">New User?
+    Register </a>
+ </form>
   </div>
   </div>
+</center>
 
 
-</form>

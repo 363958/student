@@ -14,8 +14,8 @@ if(!isset($_SESSION['adminLoggedin']))
 			text-align: center;
 		}
 		header.jumbotron {
-    background: #E0A75E;
-    color:#3D52A0 ;
+    background: #dfdfdf;
+    color:#303841 ;
     text-align: center;
     padding: 2rem 1rem;
     
@@ -23,7 +23,7 @@ if(!isset($_SESSION['adminLoggedin']))
 		.container{
 			margin-top: 10%;
 			border:20px  ;
-			background-color: #E0A75E;
+			background-color: #dfdfdf;
 			display: inline-block;
 			border-radius: 24px;
 		}
@@ -39,12 +39,12 @@ if(!isset($_SESSION['adminLoggedin']))
 			border-radius: 10px;
 		}
 		form:hover {
-    background: #9b66a8;
+    background: #bbe4e9;
     cursor: pointer;
     
 }
 		h2{
-			color: #3D52A0;
+			color: #303841;
 			
 		}
 		

@@ -1,13 +1,16 @@
 	
 body {
     font-family: 'Secular One', sans-serif;
-    background-color: #F6E6CB;
+    background-color: #f4f3f3;
     
   
 }
 header.jumbotron {
-    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-    color: transparent ;
+    background: #dfdfdf;
+    color:#303841 ;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
 }
 .parent{
 	 display: flex;
@@ -16,7 +19,7 @@ header.jumbotron {
     height: calc(100vh - 200px);
 }
 .container{
-	background: #E0A75E;
+	background: #dfdfdf;
     border-radius: 24px;
     box-shadow: 0 2px 4px rgba(9, 9, 9, 0.1);
     padding: 2em;
@@ -34,15 +37,15 @@ a.gradient {
   text-decoration: none;
     display: inline-block;
     padding: 0.5em 1em;
-    color: #973131;
-    background: #E0A75E;
+    color: #303841;
+    background: #dfdfdf;
     border-radius: 10%50%10%50%/50%10%50%10%;
     transition: background 0.3s ease;
     
 }
 
 a.gradient:hover {
-    background: #987070;
+    background: #f4f3f3;
     cursor: pointer;
     transform: translate(20PX);
 }

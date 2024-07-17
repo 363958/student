@@ -11,16 +11,16 @@ and open the template in the editor.
         <link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet"> 
         <style>
             h2{
-               color: #973131;
+               color: #303841;
                text-align: center;
 }
 h3{
-            color: #973131;
+            color: #303841;
             text-align: center;
         }
 header.jumbotron{
     background: #E0A75E;
-    color:#973131 ;
+    color:#303841 ;
     text-align: center;
     padding: 2rem 1rem;
 
@@ -59,7 +59,7 @@ header.jumbotron{
     <body>
     <center>
               <header class="jumbotron text-center">
-        <h1>Student Election System </h1>
+        <h1>Onile Voting System </h1>
        
     </header>
 <h2> New User Registration</h2>

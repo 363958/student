@@ -8,7 +8,7 @@
 
 <body>
 	  <header class="jumbotron text-center">
-        <h1>Student Election System </h1>
+        <h1>Online Voting System </h1>
     </header>
 
 <div class="parent">
