@@ -48,7 +48,7 @@ header.jumbotron{
             border-radius: 10px;
         }
         form:hover {
-    background: #FFF2D7;
+    background: #f4f3f3;
     cursor: pointer;
     
 }
@@ -59,7 +59,7 @@ header.jumbotron{
     <body>
     <center>
               <header class="jumbotron text-center">
-        <h1>Onile Voting System </h1>
+        <h1>Online Voting System </h1>
        
     </header>
 <h2> New User Registration</h2>

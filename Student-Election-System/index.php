@@ -7,6 +7,7 @@
 </head>
 
 <body>
+	
 	  <header class="jumbotron text-center">
         <h1>Online Voting System </h1>
     </header>

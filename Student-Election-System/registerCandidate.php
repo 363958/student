@@ -32,11 +32,11 @@ and open the template in the editor.
             }
             
             h3{
-            color: #b1bed5;
+            color: #303841;
             text-align: center;
         }
         .container{
-            margin-top: -25%;
+            margin-top: -10%;
             border:24px  ;
             background-color: #f4f3f3;
             border-radius: 24px;
@@ -49,7 +49,7 @@ and open the template in the editor.
             border-radius: 10px;
         }
         form:hover {
-    background: #bfd8d5;
+    background: #f4f3f3;
     cursor: pointer;
     
 }
@@ -77,9 +77,10 @@ and open the template in the editor.
             <br>
             <input type="text" placeholder="Contact" name="contact">
             <br>
-            <input  class="btn btn-primary" type="submit" name="submit" value="Register">
+            
         
         </form>
+        <input  class="btn btn-primary" type="submit" name="submit" value="Register">
                              <h3> <a href="index.php">Go to HOME</a></h3>
 
     </div>

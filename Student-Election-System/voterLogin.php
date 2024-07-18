@@ -26,9 +26,9 @@ button {
   width: 100%;
 }
 .container{
-            margin-top: -30%;
+            margin-top: -10%;
             border:24px  ;
-            background-color: #E0A75E;
+            background-color: #dfdfdf;
             border-radius: 24px;
                 text-align: center;
                   }
@@ -45,7 +45,7 @@ if(!isset($_SESSION))
  ?>
     <center>
  <header class="jumbotron text-center">
-        <h1>Onile Voting System </h1>
+        <h1>Online Voting System </h1>
        
     </header>
 
@@ -55,13 +55,14 @@ if(!isset($_SESSION))
 </head>
 <body>
 
-<h2>Voter Login Form</h2>
 <center>
 
 <form action="loginSubmit.php" method="post">
 
  <div class="parent">
   <div class="container">
+    <h2>Voter Login Form</h2>
+
 <input type="text" placeholder="Enter StudentID" name="uname" required>
 
   <input type="password" placeholder="Username" name="psw" required>

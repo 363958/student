@@ -41,12 +41,11 @@ CREATE TABLE `candidate` (
 --
 
 INSERT INTO `candidate` (`id`, `name`, `email`, `contact`, `voteCount`) VALUES
-(1, 'kishore', 'kishore@gmail.com', '1234567890', 7),
-(2, 'kumar', 'kumar@gmail.com', '98654312', 3),
-(3, 'harik', 'harik@dgmail.com', '987654', 1),
-(4, 'Neelesh Plaparthy', 'neelu@gmail.com', '987654320', 15),
-(5, 'len', 'len@gmail.com', '123457783', 1),
-(6, 'len', 'len@gmail.com', '123457783', 1);
+(1, 'kripa', 'kripapdl12@gmail.com', '1234567890', 7),
+(2, 'garima', 'dawadigarima0@gmail.com', '98654312', 3),
+(3, 'salina', 'salinawu425@dgmail.com', '987654', 1),
+
+
 
 -- --------------------------------------------------------
 

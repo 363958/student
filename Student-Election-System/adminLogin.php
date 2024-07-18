@@ -20,13 +20,16 @@ if(!isset($_SESSION['adminLoggedin']))
     padding: 2rem 1rem;
     
 }
-		.container{
-			margin-top: 10%;
-			border:20px  ;
-			background-color: #dfdfdf;
-			display: inline-block;
-			border-radius: 24px;
-		}
+.container{
+            margin-top: 10%;
+            border:24px  ;
+            background-color: #E0A75E;
+            border-radius: 24px;
+                text-align: center;
+                justify-content: right;
+                
+	       }
+
 		input{
 			padding:5px;
 			border-radius: 5px;
@@ -39,7 +42,7 @@ if(!isset($_SESSION['adminLoggedin']))
 			border-radius: 10px;
 		}
 		form:hover {
-    background: #bbe4e9;
+    background: #f4f3f3;
     cursor: pointer;
     
 }
@@ -54,8 +57,10 @@ if(!isset($_SESSION['adminLoggedin']))
 </head>
 <body>
 	 <header class="jumbotron text-center">
-        <h1>Student Election System </h1>
+        <h1>Student Voting System </h1>
     </header>
+    <center>
+
 	<div class="container">
 		<h2>Login to Admin Panel</h2>
 		<form target="" method="post">
@@ -67,6 +72,8 @@ if(!isset($_SESSION['adminLoggedin']))
 		</form>
 
 	</div>
+</center>
+
 
 <p><a href="index.php">Go to Home</a></p>
 </body>
